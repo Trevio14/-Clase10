@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+<title>Lazaro Treviño</title>
+</head>
+<body bgcolor="grey">
+<h1> Trabajando con un json y con formularios</h1>
+ <H3>Agregar Heroes</H3>
+ <form action="viernes.php" method="post">
+  <table border="darkblue">
+   <tr><td>Id:</td>
+    <td><input type="text" name="id"></td></tr>
+   <tr><td>Nombre:</td>
+    <td><input type="text" name="nombre"></td></tr>
+   <tr><td>Edad:</td>
+   <td><input type="text" name="edad"></td></tr>
+   <tr><td>Identidad Secreta:</td>
+    <td><input type="text" name="identidadsecreta"></td></tr>
+     <tr><td>Poderes:</td>
+    <td><input type="text" name="poderes"></td></tr>
+    <tr><td>Imagen:</td>
+    <td><input type="text" name="image"></td></tr>
+  </table>
+  <tr><td><input type="submit" value="Agregar"></td></tr>
+
+  <table border="DarkBlue">
+    <thead>
+  <tr>
+   <th>Id</th>
+   <th>Nombre</th>
+   <th>Edad</th>
+   <th>Identidad Secreta</th>
+   <th>Poderes</th>
+   <th>imagen</th>
+  </tr>
+</thead>
+<tbody id="data-output">
+</tbody>
+   </table>
+   <script src="index.js"></script>
+</body>
+</html>
+
